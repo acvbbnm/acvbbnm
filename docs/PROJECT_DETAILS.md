@@ -2,12 +2,9 @@
 
 <p align="center"><b>로그에서 공격의 흐름을 읽고, 조사 과정을 도구로 만듭니다.</b></p>
 
-<p align="center">SOC & Detection Engineering · Digital Forensics · Cloud Incident Response</p>
+<p align="center">Incident Response · Digital Forensics · AI-assisted Analysis</p>
 
-<p align="center">
-  <a href="https://cooperative-cave-e9b.notion.site/41c70716154e81b289fde409f3bae4c9"><img alt="Notion Portfolio" src="https://img.shields.io/badge/Notion-Portfolio-172554?style=flat-square&logo=notion&logoColor=white"></a>
-  <a href="https://github.com/acvbbnm?tab=repositories"><img alt="Project Repositories" src="https://img.shields.io/badge/GitHub-Projects-0F766E?style=flat-square&logo=github&logoColor=white"></a>
-</p>
+<p align="center"><a href="https://cooperative-cave-e9b.notion.site/41c70716154e81b289fde409f3bae4c9">Notion 포트폴리오</a> · <a href="https://github.com/acvbbnm?tab=repositories">GitHub 프로젝트</a></p>
 
 ---
 
@@ -23,7 +20,7 @@
 
 ## Selected projects
 
-### ☁️ [AI Sherpa](https://github.com/acvbbnm/cloud)
+### [AI Sherpa](https://github.com/acvbbnm/cloud)
 
 **다음에 볼 로그를 안내하는 클라우드 사고조사 가이드** · 정보보호 캡스톤 / 4인 팀 팀장
 
@@ -31,7 +28,7 @@
 
 `조사 설계` `베이즈 갱신` `정보이득 기반 단서 추천` `원본 보존`
 
-### 🛡️ [SIEM 공격 탐지·대응 실습](https://github.com/acvbbnm/siem-project)
+### [SIEM 공격 탐지·대응 실습](https://github.com/acvbbnm/siem-project)
 
 **공격 경로와 탐지의 사각지대를 대조한 가상 SOC** · 개인 프로젝트
 
@@ -41,7 +38,7 @@
 
 → [최종 보고서](https://github.com/acvbbnm/siem-project/blob/main/phase4-soc/final-report.md)
 
-### 🔎 [Evidence Atlas](https://github.com/acvbbnm/dfir)
+### [Evidence Atlas](https://github.com/acvbbnm/dfir)
 
 **포렌식 판단을 원본 근거로 되짚는 시간축·관계 그래프 도구** · 개인 프로젝트
 
@@ -75,8 +72,8 @@ AI를 활용한 보안전문가 양성과정 수료
 
 ## Experiments & learning
 
-- 🤖 [AI 오케스트레이션](https://github.com/acvbbnm/ai_orchestration) — 여러 AI CLI의 역할 분담을 실험하고 실행 기록에서 실패 원인과 개선 구조를 분석했습니다.
-- 📚 [SeSAC 학습 기록](https://github.com/acvbbnm/sesac-study-notes) — 보안관제·침해사고 대응·클라우드 보안·리버싱 등의 학습과 실습을 모았습니다.
+- [AI 오케스트레이션](https://github.com/acvbbnm/ai_orchestration) — 여러 AI CLI의 역할 분담을 실험하고 실행 기록에서 실패 원인과 개선 구조를 분석했습니다.
+- [SeSAC 학습 기록](https://github.com/acvbbnm/sesac-study-notes) — 보안관제·침해사고 대응·클라우드 보안·리버싱 등의 학습과 실습을 모았습니다.
 
 ---
 
