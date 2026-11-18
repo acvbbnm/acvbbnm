@@ -13,14 +13,12 @@
 
 ### Skills
 
-- **환경 구축** — ESXi · Linux · VyOS · pfSense, 망 분리·라우팅·NAT·방화벽 정책, 웹·DB 서버 구성
-- **모의해킹** — Nmap · Nikto · SQLmap · Hydra · WPScan, 실습 환경에서 SQLi·XSS·명령 삽입·웹쉘 시나리오 재현
-- **SIEM 구축** — Splunk · rsyslog, 로그 수집·인덱스·필드 추출·대시보드·경보 설정
-- **탐지·분석** — Snort · ModSecurity · SPL, 커스텀 룰·로그 상관분석·정탐/오탐·미탐 원인 검증
-- **관제·사고 대응** — 경보 분류·공격 타임라인 분석·IP 차단 후 재검증·관제 일지와 최종 보고서 작성
-- **디지털 포렌식** — KAPE 산출물·Sigma · SQLite · Neo4j · Elasticsearch, 원본·해시 보존과 시간축·관계 그래프 분석
-- **클라우드** — AWS · OpenTofu · Velociraptor, 계정 분리·증거 수집 환경 설계와 코드의 로컬 검증
-- **개발·AI 연계** — Python · FastAPI · React/TypeScript · Git, IDA·MCP·Ollama·AI CLI 연계
+- **Infra** · Linux · ESXi · VyOS · pfSense · AWS · OpenTofu
+- **SIEM / Detection** · Splunk · SPL · Snort · ModSecurity · rsyslog · Sigma
+- **Pentesting** · Nmap · Nikto · sqlmap · Hydra · WPScan
+- **DFIR / Data** · KAPE · Velociraptor · SQLite · Neo4j · Elasticsearch
+- **Development** · Python · TypeScript · FastAPI · React · Git
+- **AI / Tools** · IDA · MCP · Ollama · Claude Code · Codex · Gemini
 
 ### Projects
 
