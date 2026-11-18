@@ -1,8 +1,6 @@
-<h1 align="center">김병우 · Security Engineering</h1>
+# 김병우
 
-<p align="center"><b>로그에서 공격의 흐름을 읽고, 조사 과정을 도구로 만듭니다.</b></p>
-
-<p align="center">Incident Response · Digital Forensics · AI-assisted Analysis</p>
+Security Engineering · Digital Forensics · Reverse Engineering
 
 <p align="center"><a href="https://cooperative-cave-e9b.notion.site/41c70716154e81b289fde409f3bae4c9">Notion 포트폴리오</a> · <a href="https://github.com/acvbbnm?tab=repositories">GitHub 프로젝트</a></p>
 
@@ -13,10 +11,6 @@
 세종대학교 정보보호학과에서 보안을 공부하며, **공격 재현 → 탐지·분석 → 증거 검토**를 직접 연결하는 프로젝트를 진행했습니다.
 
 클라우드 사고 대응의 어려움을 실무자 설문으로 살펴보고 사고조사 가이드로 연결했습니다. 이후 가상 기업망을 구축해 공격과 탐지 결과를 대조하고, 원본 근거까지 되짚을 수 있는 포렌식 분석 도구를 개발했습니다.
-
-- **관측과 판단** — 경보 발생과 공격 성공을 구분합니다.
-- **근거와 원본** — 분석 결과를 로그·출처·해시로 연결합니다.
-- **구현과 검증** — 코드, 로컬 검증, 실제 배포의 범위를 나누어 기록합니다.
 
 ## Selected projects
 
@@ -52,11 +46,31 @@ KAPE CSV 산출물의 원래 행·해시·시각 의미를 보존하고, 시간�
 
 | 영역 | 활용 기술 | 프로젝트에서 한 일 |
 |---|---|---|
-| 보안관제·탐지 | Splunk · Snort · ModSecurity | 수집·상관분석, 경보 판정, 탐지 사각지대 분석과 대응 검증 |
-| 포렌식·증거 | KAPE · Sigma · SQLite · Neo4j | 아티팩트 적재, 원본·해시·시각 의미 보존, 관계 탐색 |
-| 검색·개발 | Python · FastAPI · React/TypeScript · Elasticsearch/Kibana | 사고 추적·수집 가이드, 로그 정규화, 분석 화면과 검색·집계 |
-| 클라우드·자동화 | AWS · OpenTofu · Velociraptor | 증거 수집 흐름과 계정 분리 설계, IaC·로컬 검증 |
-| AI 활용·분석 | IDA · MCP · Ollama · AI CLI | 분석 도구 연계, 근거 인용 검증, 에이전트 협업 실험 |
+| 모의해킹·진단 | Burp Suite · Nmap · sqlmap · Hydra · WPScan | 웹 공격 재현과 Linux·Windows·Apache 취약점 진단 |
+| 리버싱·익스플로잇 | IDA · x32dbg · GDB · pwndbg · pwntools · PEview · UPX | PE·스택 분석, 바이너리 패치·후킹, 메모리 익스플로잇 실습 |
+| 디지털 포렌식 | FTK Imager · HxD · KAPE · EZ Tools · RegRipper · Timeline Explorer | 디스크 구조·아티팩트 분석, 수집·처리 결과 검토 |
+| 관제·탐지 | Splunk/SPL · Snort · ModSecurity · Sigma · Wireshark | 로그·패킷 분석, 탐지 룰·경보, 대응 후 검증 |
+| 인프라·클라우드 | Linux · Windows Server · VMware ESXi · pfSense · VyOS · AWS · OpenTofu | 망 분리·라우팅·방화벽·서버 구성, 클라우드 보안 실습과 IaC 설계 |
+| 개발·데이터 | Python · C · C++ · SQL · TypeScript · FastAPI · React · SQLite · Neo4j · Elasticsearch | 프로젝트 개발, 포렌식 파서·학습 코드, 검색·시각화 |
+| API·분석 도구 | Postman · Talend · IDA/MCP · Ollama · AI CLI | API 테스트 도구 사용, 분석 도구 연계와 자동화 실험 |
+
+## Practice
+
+### Memory Exploitation
+
+전공 과제에서 GDB·pwndbg로 스택과 레지스터를 확인하고 pwntools로 버퍼 오버플로우·ROP·Stack Pivot·포맷 스트링·Canary 우회를 실습했습니다. [VLC 버퍼 오버플로우 분석 기록](https://github.com/acvbbnm/sesac-study-notes/blob/main/악성코드-리버싱/VLC_CVE-2008-4654_버퍼오버플로우_익스플로잇.md)도 정리했습니다.
+
+### Reverse Engineering
+
+Crackme 검증 루틴, PE 헤더 복구, 안티디버깅, 코드 케이브·후킹과 악성코드 샘플을 분석했습니다. [분석 기록](https://github.com/acvbbnm/sesac-study-notes/tree/main/악성코드-리버싱)
+
+### Digital Forensics
+
+디스크 이미징·해시 검증, MBR/GPT·NTFS/FAT32 구조와 부트 섹터 분석을 실습하고 C로 타임스탬프·파일 시그니처 분석 코드를 작성했습니다. KAPE 처리 결과와 Windows 아티팩트 분석은 [Evidence Atlas](https://github.com/acvbbnm/dfir)로 연결했습니다.
+
+### Cloud & API Security
+
+AWS Lambda·API Gateway로 위험도 API를 구성하고 Postman으로 호출 결과를 검증했습니다. boto3로 S3 공개 설정 등 클라우드 보안 구성을 점검했습니다. [S3 설정 진단 기록](https://github.com/acvbbnm/sesac-study-notes/blob/main/클라우드보안/lab3/Lab3_보고서_S3_PublicAccessBlock.md)
 
 ## Education
 
