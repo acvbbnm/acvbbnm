@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="240" viewBox="0 0 620 240" role="img" aria-label="SIEM Lab: 공격 재현부터 탐지·분석·차단 검증까지.">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0F1B2E"/><stop offset="1" stop-color="#0B1220"/></linearGradient></defs>
+<rect x=".5" y=".5" width="619" height="239" rx="14" fill="url(#bg)" stroke="#263449"/>
+<rect x="1" y="35" width="3" height="169" rx="1.5" fill="#5EEAD4"/>
+<g font-family="Segoe UI,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif">
+<text x="28" y="34" font-size="11" letter-spacing="1.5" fill="#5EEAD4">02 / PERSONAL / DETECTION ENGINEERING</text>
+<text x="28" y="82" font-size="30" font-weight="700" fill="#F8FAFC">SIEM Lab</text>
+<text x="28" y="118" font-size="17" fill="#CBD5E1">공격 재현부터 탐지·분석·차단 검증까지.</text>
+<text x="28" y="151" font-size="14" fill="#94A3B8">Snort 룰 9개 · 상관분석 7종 · 사건 일지 6건</text>
+<path d="M28 177H592" stroke="#263449"/>
+<text x="28" y="210" font-size="12" fill="#5EEAD4">Splunk / Snort / ModSecurity</text>
+<text x="567" y="210" font-size="18" fill="#5EEAD4">↗</text>
+</g>
+<g transform="translate(12,-35)" fill="none" stroke="#5EEAD4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity=".5"><path d="M535 73L559 82V101Q559 119 535 133Q511 119 511 101V82Z"/><path d="M524 101L532 109L547 92"/></g>
+</svg>
