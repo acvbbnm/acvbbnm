@@ -49,11 +49,11 @@
 
 조사 설계, 공격·탐지 실험, 증거 분석과 AI 협업까지 직접 만든 결과물입니다.
 
-<a href="https://github.com/acvbbnm/cloud"><img src="assets/sherpa.svg" width="49%" alt="AI Sherpa — 4인 팀 팀장, 사고 추적 엔진·로그 정규화·수집 가이드"></a>
-<a href="https://github.com/acvbbnm/siem-project"><img src="assets/siem.svg" width="49%" alt="SIEM Lab — 공격 재현·탐지 분석·대응 검증, Snort 룰 9개·상관분석 7종·사건 일지 6건"></a>
+<a href="https://github.com/acvbbnm/cloud"><img src="assets/sherpa.svg" width="390" alt="AI Sherpa — 4인 팀 팀장, 사고 추적 엔진·로그 정규화·수집 가이드"></a>
+<a href="https://github.com/acvbbnm/siem-project"><img src="assets/siem.svg" width="390" alt="SIEM Lab — 공격 재현·탐지 분석·대응 검증, Snort 룰 9개·상관분석 7종·사건 일지 6건"></a>
 
-<a href="https://github.com/acvbbnm/dfir"><img src="assets/atlas.svg" width="49%" alt="Evidence Atlas — 포렌식 시간축·관계 그래프·원본과 해시 보존"></a>
-<a href="https://github.com/acvbbnm/ai_orchestration"><img src="assets/orchestration.svg" width="49%" alt="AI Orchestration — 역할 분리·독립 검수·세션 기억·실행 증적 분석"></a>
+<a href="https://github.com/acvbbnm/dfir"><img src="assets/atlas.svg" width="390" alt="Evidence Atlas — 포렌식 시간축·관계 그래프·원본과 해시 보존"></a>
+<a href="https://github.com/acvbbnm/ai_orchestration"><img src="assets/orchestration.svg" width="390" alt="AI Orchestration — 역할 분리·독립 검수·세션 기억·실행 증적 분석"></a>
 
 <p><sub>AI Sherpa는 정보보호 캡스톤 팀 프로젝트, SIEM·Evidence Atlas는 개인 프로젝트입니다. Atlas의 AWS 확장은 코드·로컬 검증 단계이며 실제 AWS에는 미배포 상태입니다.</sub></p>
 
