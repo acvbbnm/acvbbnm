@@ -13,12 +13,17 @@
 
 ### Skills
 
-- **Infra** · Linux · ESXi · VyOS · pfSense · AWS · OpenTofu
-- **SIEM / Detection** · Splunk · SPL · Snort · ModSecurity · rsyslog · Sigma
-- **Pentesting** · Nmap · Nikto · sqlmap · Hydra · WPScan
-- **DFIR / Data** · KAPE · Velociraptor · SQLite · Neo4j · Elasticsearch
-- **Development** · Python · TypeScript · FastAPI · React · Git
-- **AI / Tools** · IDA · MCP · Ollama · Claude Code · Codex · Gemini
+네트워크·서버 구축 · 가상화 · 방화벽 정책 구성
+
+웹 모의해킹 · 취약점 검증
+
+SIEM 구축 · 로그 상관분석 · 탐지 룰 작성
+
+침해사고 분석·대응 · 디지털 포렌식
+
+클라우드 인프라 설계 · 증거 수집 자동화
+
+Python · TypeScript · API 개발 · AI 도구 연계
 
 ### Projects
 
