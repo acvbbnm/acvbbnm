@@ -8,51 +8,35 @@
 
 <p align="center"><a href="https://cooperative-cave-e9b.notion.site/41c70716154e81b289fde409f3bae4c9">Notion Portfolio</a> · <a href="docs/PROJECT_DETAILS.md">Projects & Practice</a></p>
 
-## Tech Stack
+## Tech stack
 
-<p align="center"><b>Languages</b></p>
-<p align="center"><img src="assets/skills/languages.png" width="600" alt="Python, C, C++, TypeScript, SQL, x86/x64 Assembly" /></p>
-
-<p align="center"><b>Offensive Security</b></p>
-<p align="center"><img src="assets/skills/offensive.png" width="600" alt="Burp Suite, Nmap, sqlmap, Hydra, WPScan" /></p>
-
-<p align="center"><b>Reverse Engineering &amp; Exploitation</b></p>
-<p align="center"><img src="assets/skills/reverse.png" width="600" alt="IDA, x32dbg, GDB, pwndbg, pwntools, PEview, UPX" /></p>
-
-<p align="center"><b>Digital Forensics</b></p>
-<p align="center"><img src="assets/skills/forensics.png" width="600" alt="KAPE, FTK Imager, EZ Tools, RegRipper, Timeline Explorer, HxD" /></p>
-
-<p align="center"><b>Detection &amp; Response</b></p>
-<p align="center"><img src="assets/skills/detection.png" width="600" alt="Splunk/SPL, Snort, ModSecurity, Sigma, Wireshark" /></p>
-
-<p align="center"><b>Infrastructure &amp; Cloud</b></p>
-<p align="center"><img src="assets/skills/infrastructure.png" width="600" alt="Linux, AWS, Windows Server, VMware ESXi, pfSense, VyOS, OpenTofu" /></p>
-
-<p align="center"><b>Development &amp; Data</b></p>
-<p align="center"><img src="assets/skills/development.png" width="600" alt="FastAPI, React, SQLite, Elasticsearch, Git, Neo4j, Postman, Talend" /></p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/skills/stack-dark.png">
+  <img src="assets/skills/stack-light.png" width="720" alt="Digital Forensics: KAPE, FTK Imager, EZ Tools, RegRipper, Timeline Explorer, HxD. Detection and Response: Splunk/SPL, Sigma, Snort, ModSecurity, Wireshark. Reverse Engineering: IDA, x32dbg, GDB, pwndbg, pwntools, PEview, UPX. Offensive Security: Burp Suite, Nmap, sqlmap, Hydra, WPScan. Infrastructure and Cloud: Linux, Windows Server, AWS, VMware ESXi, pfSense, VyOS, OpenTofu. Development and Data: FastAPI, React, SQLite, Elasticsearch, Neo4j, Git, Postman, Talend. Languages: Python, C, C++, TypeScript, SQL, x86/x64 Assembly.">
+</picture>
 
 ## Projects
 
 ### [Evidence Atlas](https://github.com/acvbbnm/dfir)
 
-KAPE 산출물을 시간축과 관계 그래프로 탐색하는 DFIR 분석 도구. 원본 행·SHA-256·시각 의미를 보존하고 Sigma 탐지 후보와 로컬 AI 분석을 연결했습니다.
+KAPE 산출물을 시간축과 관계 그래프로 탐색하는 DFIR 분석 도구입니다. 원본 행, SHA-256, 시각의 의미를 그대로 보존합니다. Sigma 탐지 후보와 로컬 AI 분석을 연결했습니다.
 
-`Python` `SQLite` `Neo4j` `Elasticsearch` `Sigma`
+사용 기술: Python, SQLite, Neo4j, Elasticsearch, Sigma
 
 ### [SIEM Lab](https://github.com/acvbbnm/siem-project)
 
-가상 기업망 구축부터 모의해킹, 로그 수집, 탐지 룰 작성, 관제 대응까지 수행한 개인 실습. 공격 결과와 경보를 대조하고 IP 차단 후 재검증했습니다.
+가상 기업망을 구축하고 모의해킹, 로그 수집, 탐지 룰 작성, 관제 대응을 직접 수행한 개인 실습입니다. 공격 결과와 경보를 대조했고, IP를 차단한 뒤 다시 공격해 차단을 확인했습니다.
 
-`VMware ESXi` `pfSense` `Splunk` `Snort` `ModSecurity`
+사용 기술: VMware ESXi, pfSense, Splunk, Snort, ModSecurity
 
 ### [AI Sherpa](https://github.com/acvbbnm/cloud)
 
-다음에 확인할 로그와 수집 방법을 안내하는 클라우드 침해사고 조사 가이드. 4인 캡스톤 팀의 팀장으로 사고 추적 엔진·로그 정규화·수집 가이드와 화면 연동을 맡았습니다.
+클라우드 침해사고에서 다음에 확인할 로그와 수집 방법을 안내하는 조사 가이드입니다. 4인 캡스톤 팀의 팀장으로 사고 추적 엔진, 로그 정규화, 수집 가이드, 화면 연동을 맡았습니다.
 
-`Python` `FastAPI` `React` `TypeScript` `AWS`
+사용 기술: Python, FastAPI, React, TypeScript, AWS
 
 ## Archive
 
-- [AI 오케스트레이션](https://github.com/acvbbnm/ai_orchestration) · AI CLI 역할 분담과 실행 기록 분석
+- [AI 오케스트레이션](https://github.com/acvbbnm/ai_orchestration) · AI CLI에 역할을 나눠 맡기고 실행 기록을 분석한 실험
 - [SeSAC 학습 기록](https://github.com/acvbbnm/sesac-study-notes) · 웹 보안, 리버싱, 취약점 진단, 네트워크·클라우드 보안 실습
 - [실습 분야 자세히 보기](docs/PROJECT_DETAILS.md#practice) · 메모리 익스플로잇, 디스크·아티팩트 분석, AWS API 실습
