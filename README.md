@@ -4,10 +4,6 @@
 
 <p align="center"><a href="https://cooperative-cave-e9b.notion.site/41c70716154e81b289fde409f3bae4c9">Notion</a> · <a href="docs/PROJECT_DETAILS.md">Projects</a></p>
 
-<br>
-
-<img src="assets/skills/stack.png" width="720" alt="Digital Forensics: KAPE, FTK Imager, EZ Tools, RegRipper, Timeline Explorer, HxD. Detection and Response: Splunk/SPL, Sigma, Snort, ModSecurity, Wireshark. Reverse Engineering: IDA, x32dbg, GDB, pwndbg, pwntools, PEview, UPX. Offensive Security: Burp Suite, Nmap, sqlmap, Hydra, WPScan. Infrastructure and Cloud: Linux, Windows Server, AWS, VMware ESXi, pfSense, VyOS, OpenTofu. Development and Data: FastAPI, React, SQLite, Elasticsearch, Neo4j, Git, Postman, Talend. Languages: Python, C, C++, TypeScript, SQL, x86/x64 Assembly.">
-
 ## Projects
 
 **[SIEM Lab](https://github.com/acvbbnm/siem-project)**
@@ -21,6 +17,10 @@ Windows 포렌식 기록을 시간축과 관계 그래프로 탐색하고 원래
 **[AI Sherpa](https://github.com/acvbbnm/cloud)**
 NCP·NHN Cloud의 사고 수집과 다음 단서 확인을 돕는 조사 도구입니다. 4인 캡스톤에서 팀장을 맡았습니다. [최종 제출본](https://github.com/acvbbnm/cloud/tree/4bee0efe71e27249f05af0dc017abf80f9cc9f59)
 <sub>Python · FastAPI · React · TypeScript</sub>
+
+## 기술 분야
+
+<img src="assets/skills/stack.png" width="720" alt="Digital Forensics: KAPE, FTK Imager, EZ Tools, RegRipper, Timeline Explorer, HxD. Detection and Response: Splunk/SPL, Sigma, Snort, ModSecurity, Wireshark. Reverse Engineering: IDA, x32dbg, GDB, pwndbg, pwntools, PEview, UPX. Offensive Security: Burp Suite, Nmap, sqlmap, Hydra, WPScan. Infrastructure and Cloud: Linux, Windows Server, AWS, VMware ESXi, pfSense, VyOS, OpenTofu. Development and Data: FastAPI, React, SQLite, Elasticsearch, Neo4j, Git, Postman, Talend. Languages: Python, C, C++, TypeScript, SQL, x86/x64 Assembly.">
 
 ## Archive
 
