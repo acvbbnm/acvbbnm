@@ -6,39 +6,33 @@ Security Engineering · Digital Forensics · Reverse Engineering
 
 ---
 
-## About
-
-세종대학교 정보보호학과에서 보안을 공부하며, 공격을 재현하고, 탐지·분석하고, 증거를 검토하는 과정을 한 프로젝트 안에서 직접 이어 보았습니다.
-
-클라우드 사고 대응의 어려움을 실무자 설문으로 살펴보고 사고조사 가이드로 연결했습니다. 이후 가상 기업망을 구축해 공격과 탐지 결과를 대조하고, 원본 근거까지 되짚을 수 있는 포렌식 분석 도구를 개발했습니다.
-
 ## Selected projects
 
 ### [AI Sherpa](https://github.com/acvbbnm/cloud)
 
-다음에 볼 로그를 안내하는 클라우드 사고조사 가이드. 정보보호 캡스톤, 4인 팀 팀장.
+클라우드 사고조사 가이드 · 정보보호 캡스톤, 4인 팀 팀장
 
 실무자 설문에서 확인한 조사 병목을 도구의 요구사항으로 연결했습니다. 사고 추적 엔진·수집 가이드·로그 정규화·프론트엔드 연동을 맡고 프로젝트를 총괄했습니다.
 
-핵심 기법: 조사 설계, 베이즈 갱신, 정보이득 기반 단서 추천, 원본 보존
+<sub>조사 설계 · 베이즈 갱신 · 정보이득 기반 단서 추천 · 원본 보존</sub>
 
 ### [SIEM 공격 탐지·대응 실습](https://github.com/acvbbnm/siem-project)
 
-공격 경로와 탐지의 사각지대를 대조한 가상 SOC. 개인 프로젝트.
+공격 경로와 탐지 사각지대를 대조한 가상 SOC · 개인 프로젝트
 
 공격망·DMZ·내부망·관리망을 분리하고 Snort·WAF·서버 로그를 Splunk에서 분석했습니다. 커스텀 룰 9개, 상관분석 쿼리 7종, Alert 5종과 사건 일지 6건을 정리했습니다.
 
-핵심 기법: Splunk, Snort, ModSecurity, 탐지·미탐 분석, 차단 후 재검증
+<sub>Splunk · Snort · ModSecurity · 탐지·미탐 분석 · 차단 후 재검증</sub>
 
 [최종 보고서](https://github.com/acvbbnm/siem-project/blob/main/phase4-soc/final-report.md)
 
 ### [Evidence Atlas](https://github.com/acvbbnm/dfir)
 
-포렌식 판단을 원본 근거로 되짚는 시간축·관계 그래프 도구. 개인 프로젝트.
+원본 근거로 되짚는 시간축·관계 그래프 도구 · 개인 프로젝트
 
 KAPE CSV 산출물의 원래 행·해시·시각 의미를 보존하고, 시간축과 공유 참조 그래프로 탐색하도록 만들었습니다. Sigma 탐지 후보·로컬 AI 가설과 manifest 기반 사건 가져오기를 연결했습니다.
 
-핵심 기법: Python, SQLite, Neo4j, Elasticsearch, Sigma, 근거 보존
+<sub>Python · SQLite · Neo4j · Elasticsearch · Sigma · 근거 보존</sub>
 
 [설계서](https://github.com/acvbbnm/dfir/blob/main/DESIGN.md). AWS 확장은 코드와 로컬 검증까지 마쳤고, 실제 AWS에는 아직 배포하지 않았습니다.
 
@@ -77,18 +71,18 @@ AWS Lambda·API Gateway로 위험도 API를 구성하고 Postman으로 호출 �
 **세종대학교 · 정보보호학과**  
 2027년 2월 졸업 예정
 
-시스템해킹과보안 · 디지털포렌식 · 운영체제및보안 · 데이터베이스보안 · 컴퓨터네트워크 등 이수
+시스템해킹과보안 · 디지털포렌식 · 운영체제및보안 · 데이터베이스보안 · 컴퓨터네트워크
 
 **KISIA 청년취업사관학교(SeSAC)**  
 AI를 활용한 보안전문가 양성과정 수료
 
-보안관제·침해사고 대응·클라우드 보안·취약점 진단·리버싱을 학습하고 프로젝트에 적용했습니다.
+보안관제, 침해사고 대응, 클라우드 보안, 취약점 진단, 리버싱
 
 ## Experiments and learning
 
-- [AI 오케스트레이션](https://github.com/acvbbnm/ai_orchestration). 여러 AI CLI의 역할 분담을 실험하고 실행 기록에서 실패 원인과 개선 구조를 분석했습니다.
-- [SeSAC 학습 기록](https://github.com/acvbbnm/sesac-study-notes). 보안관제, 침해사고 대응, 클라우드 보안, 리버싱의 학습과 실습을 모았습니다.
+- [AI 오케스트레이션](https://github.com/acvbbnm/ai_orchestration) · AI CLI 역할 분담 실험과 실패 분석
+- [SeSAC 학습 기록](https://github.com/acvbbnm/sesac-study-notes) · 보안 교육 과정 학습·실습 기록
 
 ---
 
-[Notion에서 프로젝트 문서와 실습 증적 보기](https://cooperative-cave-e9b.notion.site/41c70716154e81b289fde409f3bae4c9)
+[Notion 포트폴리오](https://cooperative-cave-e9b.notion.site/41c70716154e81b289fde409f3bae4c9)

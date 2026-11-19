@@ -2,11 +2,9 @@
 
 ## Tech stack panel
 
-`skills/stack-light.png` and `skills/stack-dark.png` are the tech stack panel shown on the GitHub profile and the Notion portfolio. The README picks one of them with `<picture>` based on the viewer's color scheme.
+`skills/stack.png` is the tech stack panel on the GitHub profile and the Notion portfolio. It is one white panel with neutral gray text, Pretendard Variable, and no logos or highlight colors.
 
-`skills/render_panel.py` draws both images from one list of categories and tools. Edit the `ROWS` list, then run the script with Playwright and Microsoft Edge to redraw them.
-
-The panel follows the calm-design rules: a neutral gray base, one accent color (emerald), Pretendard Variable, and no brand logos. Digital Forensics and Detection & Response sit on top with the accent dot because they are the main job targets.
+`skills/render_panel.py` draws it from the `ROWS` list. Edit the list and run the script with Playwright and Microsoft Edge to redraw it.
 
 The panel lists technologies used in projects, coursework and labs. It has no proficiency scores. Talend is listed as a tool and does not claim a particular Talend product or ETL experience.
 
