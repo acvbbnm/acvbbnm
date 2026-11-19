@@ -10,18 +10,18 @@
 
 ## Projects
 
-**[Evidence Atlas](https://github.com/acvbbnm/dfir)**  
-KAPE 산출물을 시간축과 관계 그래프로 탐색하는 DFIR 분석 도구  
-<sub>Python · SQLite · Neo4j · Elasticsearch · Sigma</sub>
+**[SIEM Lab](https://github.com/acvbbnm/siem-project)**
+네트워크·웹·DB 로그를 대조해 모의 사고를 재구성하고 방화벽 차단을 검증한 실습입니다. [최종 보고서](https://github.com/acvbbnm/siem-project/blob/d2b206ccab362037f6dfd3596c7700641aba744f/phase4-soc/final-report.md)
+<sub>Splunk · Snort · ModSecurity · pfSense</sub>
 
-**[SIEM Lab](https://github.com/acvbbnm/siem-project)**  
-가상 기업망에서 공격, 탐지, 관제 대응까지 수행한 실습  
-<sub>VMware ESXi · pfSense · Splunk · Snort · ModSecurity</sub>
+**[Evidence Atlas](https://github.com/acvbbnm/dfir)**
+Windows 포렌식 기록을 시간축과 관계 그래프로 탐색하고 원래 CSV 행을 확인하는 도구입니다.
+<sub>Python · SQLite · Sigma</sub>
 
-**[AI Sherpa](https://github.com/acvbbnm/cloud)**  
-클라우드 침해사고 조사 가이드, 4인 캡스톤 팀장  
-<sub>Python · FastAPI · React · TypeScript · AWS</sub>
+**[AI Sherpa](https://github.com/acvbbnm/cloud)**
+NCP·NHN Cloud의 사고 수집과 다음 단서 확인을 돕는 조사 도구입니다. 4인 캡스톤에서 팀장을 맡았습니다. [최종 제출본](https://github.com/acvbbnm/cloud/tree/4bee0efe71e27249f05af0dc017abf80f9cc9f59)
+<sub>Python · FastAPI · React · TypeScript</sub>
 
 ## Archive
 
-[AI 오케스트레이션](https://github.com/acvbbnm/ai_orchestration) · [SeSAC 학습 기록](https://github.com/acvbbnm/sesac-study-notes) · [실습 상세](docs/PROJECT_DETAILS.md#practice)
+[AI 오케스트레이션](https://github.com/acvbbnm/ai_orchestration) · [SeSAC 학습 기록](https://github.com/acvbbnm/sesac-study-notes) · [학교 학습 기록](https://github.com/acvbbnm/school-study-notes) · [실습 상세](docs/PROJECT_DETAILS.md#practice)
