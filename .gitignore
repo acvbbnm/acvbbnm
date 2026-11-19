@@ -1,0 +1,8 @@
+
+# 하네스 템플릿 (2026-11-19)
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
+CLAUDE.local.md
+.venv/
