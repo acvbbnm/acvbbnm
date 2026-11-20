@@ -1,34 +1,26 @@
 # 김병우
 
-Security Engineering · Digital Forensics · Reverse Engineering
+보안관제·침해사고 대응 · 디지털 포렌식
 
 <p align="center"><a href="https://cooperative-cave-e9b.notion.site/41c70716154e81b289fde409f3bae4c9">Notion 포트폴리오</a> · <a href="https://github.com/acvbbnm?tab=repositories">GitHub 프로젝트</a></p>
 
 ---
 
-## Selected projects
-
-### [AI Sherpa](https://github.com/acvbbnm/cloud)
-
-클라우드 사고조사 가이드 · 정보보호 캡스톤, 4인 팀 팀장
-
-실무자 설문에서 확인한 조사 병목을 도구의 요구사항으로 연결했습니다. 사고 추적 엔진·수집 가이드·로그 정규화·프론트엔드 연동을 맡고 프로젝트를 총괄했습니다.
-
-<sub>조사 설계 · 베이즈 갱신 · 정보이득 기반 단서 추천 · 원본 보존</sub>
+## 프로젝트
 
 ### [SIEM 공격 탐지·대응 실습](https://github.com/acvbbnm/siem-project)
 
 공격 경로와 탐지 사각지대를 대조한 가상 SOC · 개인 프로젝트
 
-공격망·DMZ·내부망·관리망을 분리하고 Snort·WAF·서버 로그를 Splunk에서 분석했습니다. 커스텀 룰 9개, 상관분석 쿼리 7종, Alert 5종과 사건 일지 6건을 정리했습니다.
+공격망·DMZ·내부망·관리망을 분리하고 Snort·WAF·서버 로그를 Splunk에서 분석했습니다. Snort 룰 9개를 구성했고, Splunk 경보 5종 중 4종에서 총 7건의 발생을 확인했습니다. SPL은 실행 확인 범위를 나눠 기록했습니다.
 
 <sub>Splunk · Snort · ModSecurity · 탐지·미탐 분석 · 차단 후 재검증</sub>
 
-[최종 보고서](https://github.com/acvbbnm/siem-project/blob/main/phase4-soc/final-report.md)
+[최종 보고서](https://github.com/acvbbnm/siem-project/blob/main/report/README.md) · [탐지 룰과 SPL](https://github.com/acvbbnm/siem-project/blob/main/detection/README.md)
 
 ### [Evidence Atlas](https://github.com/acvbbnm/dfir)
 
-원본 근거로 되짚는 시간축·관계 그래프 도구 · 개인 프로젝트
+Windows 포렌식 조사 도구 · 개인 프로젝트
 
 KAPE CSV 산출물의 원래 행·해시·시각 의미를 보존하고, 시간축과 공유 참조 그래프로 탐색하도록 만들었습니다. Sigma 탐지 후보·로컬 AI 가설과 manifest 기반 사건 가져오기를 연결했습니다.
 
@@ -36,7 +28,15 @@ KAPE CSV 산출물의 원래 행·해시·시각 의미를 보존하고, 시간�
 
 [설계서](https://github.com/acvbbnm/dfir/blob/main/DESIGN.md). AWS 확장은 코드와 로컬 검증까지 마쳤고, 실제 AWS에는 아직 배포하지 않았습니다.
 
-## Skills and practice
+### [AI Sherpa](https://github.com/acvbbnm/cloud)
+
+클라우드 사고조사 가이드 · 정보보호 캡스톤, 4인 팀 팀장
+
+설문에서 조사 초기에 어떤 로그부터 확인할지 정하기 어렵다는 점을 확인했습니다. 팀장을 맡아 사고 추적 엔진, 수집 가이드, 로그 정규화와 화면 연동을 구현했습니다.
+
+<sub>조사 설계 · 베이즈 갱신 · 정보이득 기반 단서 추천 · 원본 보존</sub>
+
+## 기술과 실습
 
 | 영역 | 활용 기술 | 프로젝트에서 한 일 |
 |---|---|---|
@@ -46,7 +46,6 @@ KAPE CSV 산출물의 원래 행·해시·시각 의미를 보존하고, 시간�
 | 관제·탐지 | Splunk/SPL · Snort · ModSecurity · Sigma · Wireshark | 로그·패킷 분석, 탐지 룰·경보, 대응 후 검증 |
 | 인프라·클라우드 | Linux · Windows Server · VMware ESXi · pfSense · VyOS · AWS · OpenTofu | 망 분리·라우팅·방화벽·서버 구성, 클라우드 보안 실습과 IaC 설계 |
 | 개발·데이터 | Python · C · C++ · SQL · TypeScript · FastAPI · React · SQLite · Neo4j · Elasticsearch | 프로젝트 개발, 포렌식 파서·학습 코드, 검색·시각화 |
-| API·분석 도구 | Postman · Talend · IDA/MCP · Ollama · AI CLI | API 테스트 도구 사용, 분석 도구 연계와 자동화 실험 |
 
 ## Practice
 
